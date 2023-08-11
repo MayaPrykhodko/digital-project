@@ -773,5 +773,10 @@ textarea:focus {
         font-size: 10px;
         width: 280px;
     }
+}
 
+@media (max-width: 480px) {
+    .project-img {
+        width: $font-size-14*26;
+    }
 }

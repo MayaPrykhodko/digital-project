@@ -128,4 +128,9 @@
   .menu_footer {
     height: 150px;
   }
+}
+@media (max-width: 480px) {
+  .logo_footer + div.footer-menu {
+    display: none;
+  }
 }/*# sourceMappingURL=footer.css.map */

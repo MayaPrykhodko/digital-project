@@ -678,4 +678,9 @@ textarea {
     font-size: 10px;
     width: 280px;
   }
+}
+@media (max-width: 480px) {
+  .project-img {
+    width: 364px;
+  }
 }/*# sourceMappingURL=main.css.map */

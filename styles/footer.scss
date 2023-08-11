@@ -6,7 +6,7 @@
     align-items: center;
     background-color: $color-black;
     color: $color-white;
-    width: 100vw; 
+    width: 100vw;
 }
 
 .footer__info {
@@ -97,12 +97,12 @@
 }
 
 @media (max-width: 992px) {
-    
+
     .footer-menu__title,
     .footer-icons__title {
         font-size: $font-size-14;
     }
-    
+
     .menu_footer a {
         font-size: $font-size-12;
     }
@@ -110,7 +110,7 @@
     .icons {
         display: flex;
         gap: 20px;
-    } 
+    }
 }
 
 @media (max-width: 768px) {
@@ -119,7 +119,7 @@
     .footer-icons__title {
         font-size: $font-size-12;
     }
-    
+
     .menu_footer a {
         font-size: 10px;
     }
@@ -140,5 +140,11 @@
     .menu_footer {
         height: 150px;
     }
+}
 
+@media (max-width: 480px) {
+
+    .logo_footer+div.footer-menu {
+        display: none;
+    }
 }
