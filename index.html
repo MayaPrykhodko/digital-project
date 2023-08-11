@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link href="https://fonts.cdnfonts.com/css/tt-hoves-pro-trial" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/common.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-container">
+            <div class="header">
+                <div class="header__logo">
+                    <div class="logo logo_header"></div>
+                </div>
+                <div class="header__menu">
+                    <div class="menu menu_header">
+                        <a class="link-main" href="#"><span>ГЛАВНАЯ</span></a>
+                        <a class="link-gallery" href="#">ГАЛЕРЕЯ</a>
+                        <a class="link-projects" href="#projects-list">ПРОЕКТЫ</a>
+                        <a class="link-certifications" href="#">СЕРТИФИКАТЫ</a>
+                        <a class="link-contacts" href="#contacts">КОНТАКТЫ</a>
+                    </div>
+                </div>
+                <div class="header__icon">
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main__projects-slider">
+                <div class="projects-slider">
+                    <div class="projects-slider__left-part">
+                        <div class="project">PROJECT</div>
+                        <div class="project-name">HOME</div>
+                        <div class="slider-buttons">
+                            <button class="scroll-button scroll-button_left">
+                                <i class="fa-solid fa-arrow-left fa-sm"></i>
+                            </button>
+                            <button class="scroll-button scroll-button_right">
+                                <i class="fa-solid fa-arrow-right fa-sm"></i>
+                            </button>
+                        </div>
+                        <div class="slide-numbers">
+                            <span class="slide-numbers__item">01 /</span>
+                            <span class="slide-numbers__item">02 </span>
+                        </div>
+                    </div>
+                    <div class="projects-slider__right-part">
+                        <div class="project-img project-img_home"></div>
+                        <div class="button button_white">
+                            ВЗГЛЯНУТЬ
+                            <i class="fa-solid fa-arrow-right fa-sm"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__company-info">
+                <div class="company-info">
+                    <div class="company-info__img">
+                        <div class="company-image  company-image_upper"></div>
+                        <div class="company-image  company-image_right"></div>
+                        <div class="company-image  company-image_bottom"></div>
+                    </div>
+                    <div class="company-info__text">
+                        <div class="company-title">О компании</div>
+                        <div class="company-intro">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.</div>
+                        <div class="button button_white">
+                            ЧИТАТЬ
+                            <i class="fa-solid fa-arrow-right fa-sm"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__company-tasks">
+                <div class="company-tasks">
+                    <div class="company-tasks__title">Основные задачи</div>
+                    <div class="company-tasks__list">
+                        <div class="tasks-list">
+                            <div class="tasks-list__item">
+                                <div class="task-number task-number_1"><span>1</span></div>
+                                <div class="task-description">Создание комфортных условий и повышение качества
+                                    обслуживания клиентов</div>
+                            </div>
+                            <div class="tasks-list__item">
+                                <div class="task-number task-number_2"><span>2</span></div>
+                                <div class="task-description">Постоянно совершенствовать качество предоставляемых услуг
+                                    путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__company-projects">
+                <div class="company-projects">
+                    <div class="company-projects__title">Наши проекты</div>
+                    <div class="company-projects__list">
+                        <div class="projects-list" id="projects-list">
+                            <div class="project-photo project-photo_1">
+                                <span class="project-photo-name">ДОСУГОВЫЙ ЦЕНТР</span>
+                                <div class="card-button">
+                                    Подробнее
+                                    <i class="fa-solid fa-arrow-right fa-sm"></i>
+                                </div>
+                            </div>
+                            <div class="project-photo project-photo_2"></div>
+                            <div class="project-photo project-photo_3"></div>
+                            <div class="project-photo project-photo_4"></div>
+                            <div class="project-photo project-photo_5"></div>
+                        </div>
+                    </div>
+                    <div class="company-projects__button">
+                        <div class="button button_grey">
+                            ВСЕ ПРОЕКТЫ
+                            <i class="fa-solid fa-arrow-right fa-sm"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__contact-block">
+                <div class="contact-block">
+                    <div class="contact-block__title">Связаться с нами</div>
+                    <div class="contact-block__form">
+                        <div class="contact-block-form">
+                            <form action="" method="POST">
+                                <div class="form__name">
+                                    <input type="text" name="firstname" placeholder="Имя">
+                                </div>
+                                <div class="form__phone">
+                                    <input type="tel" name="phone" placeholder="Номер телефона*" pattern="\+[0-9]{11,12}" required>
+                                </div>
+                                <div class="form__email">
+                                    <input type="email" name="email" placeholder="E-mail*" required>
+                                </div>
+                                <div class="form__service">
+                                    <input type="text" name="service" placeholder="Интересующий товар/услуга">
+                                </div>
+                                <div class="form__message">
+                                    <textarea name="message" placeholder="Сообщение" style="resize:none"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contact-block-image"></div>
+                    </div>
+                    <div class="contact-block__text">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+                    </div>
+                    <div class="contact-block__button">
+                        <div class="button button_grey">
+                            Отправить
+                            <i class="fa-solid fa-arrow-right fa-sm"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__info">
+                <div class="logo logo_footer"></div>
+                <div class="footer-menu">
+                    <div class="footer-menu__title">Информация</div>
+                    <div class="footer-menu_item">
+                        <div class="menu menu_footer">
+                            <a class="link-main" href="#">Главная</a>
+                            <a class="link-gallery" href="#">Галерея</a>
+                            <a class="link-projects" href="#projects-list">Проекты</a>
+                            <a class="link-certifications" href="#">Сертификаты</a>
+                            <a class="link-contacts" href="#">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu" id="contacts">
+                    <div class="footer-menu__title">Koнтакты</div>
+                    <div class="footer-menu_item">
+                        <div class="menu menu_footer">
+                            <div class="menu__item">
+                                <i class="fa-solid fa-location-dot fa-sm"></i>
+                                <a class="link-adress" href="#">100000, Республика Казахстан, <br>
+                                    г.Караганда,ул.
+                                    Телевизионная 10</a>
+                            </div>
+                            <div class="menu__item">
+                                <i class="fa-solid fa-phone fa-sm"></i>
+                                <a class="link-phone" href="tel:+380000000000">+38 (000) 000 00 00</a>
+                            </div>
+                            <div class="menu__item">
+                                <i class="fa-regular fa-envelope fa-sm"></i>
+                                <a class="link-email" href="mailto:mail@gmail.com">mail@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-icons">
+                    <div class="footer-icons__title">Социальные сети</div>
+                    <div class="icons">
+                        <div class="footer-icons__item">
+                            <div class="icon icon_facebook"><a href="#"></a></div>
+                        </div>
+                        <div class="footer-icons__item">
+                            <div class="icon icon_twitter"><a href="#"></a></div>
+                        </div>
+                        <div class="footer-icons__item">
+                            <div class="icon icon_linkedin"><a href="#"></a></div>
+                        </div>
+                        <div class="footer-icons__item">
+                            <div class="icon icon_pininterest"><a href="#"></a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="copyright-text">© 2019 Digital Project. Все права защищены.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

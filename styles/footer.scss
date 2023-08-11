@@ -1,0 +1,144 @@
+@import 'colors-fonts';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-black;
+    color: $color-white;
+    width: 100vw; 
+}
+
+.footer__info {
+    height: 347px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 58px;
+    width: 80vw;
+}
+
+.logo_footer {
+    width: 145px;
+    height: 94px;
+    background-image: url("images/logo-footer.png");
+}
+
+.footer-menu,
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-menu__title,
+.footer-icons__title {
+    font-size: $font-size-14+2;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 184px;
+}
+
+.menu_footer a {
+    color: $color-white;
+    font-size: $font-size-14;
+}
+
+.menu_footer a:hover {
+    color: $color-blue;
+}
+
+.icons {
+    display: flex;
+    gap: $font-size-14*2;
+}
+
+.icon {
+    width: $font-size-14+6;
+    height: $font-size-14+3;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scaleY(1.3);
+}
+
+.icon_facebook {
+    background-image: url("images/facebook.png");
+    background-repeat: no-repeat;
+}
+
+.icon_twitter {
+    background-image: url("images/twitter.png");
+    background-repeat: no-repeat;
+}
+
+.icon_linkedin {
+    background-image: url("images/Linked\ In.png");
+    background-repeat: no-repeat;
+}
+
+.icon_pininterest {
+    background-image: url("images/pininterest.png");
+    background-repeat: no-repeat;
+}
+
+.copyright-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $font-size-14*5;
+    color: $color-lightgrey;
+    filter: brightness(50%);
+}
+
+@media (max-width: 992px) {
+    
+    .footer-menu__title,
+    .footer-icons__title {
+        font-size: $font-size-14;
+    }
+    
+    .menu_footer a {
+        font-size: $font-size-12;
+    }
+
+    .icons {
+        display: flex;
+        gap: 20px;
+    } 
+}
+
+@media (max-width: 768px) {
+
+    .footer-menu__title,
+    .footer-icons__title {
+        font-size: $font-size-12;
+    }
+    
+    .menu_footer a {
+        font-size: 10px;
+    }
+
+    .copyright-text {
+        height: $font-size-14*2;
+        font-size: $font-size-12;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .footer__info {
+        height: 310px;
+        padding-top: 38px;
+    }
+
+    .menu_footer {
+        height: 150px;
+    }
+
+}
