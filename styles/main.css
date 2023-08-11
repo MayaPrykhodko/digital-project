@@ -609,7 +609,7 @@ textarea:focus {
     font-size: 12px;
   }
   .project-img {
-    width: 420px;
+    width: 80vw;
     height: 300px;
   }
   .projects-slider__right-part .button {
@@ -677,10 +677,5 @@ textarea {
   .contact-block__text {
     font-size: 10px;
     width: 280px;
-  }
-}
-@media (max-width: 480px) {
-  .project-img {
-    width: 364px;
   }
 }/*# sourceMappingURL=main.css.map */

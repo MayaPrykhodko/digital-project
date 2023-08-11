@@ -684,7 +684,7 @@ textarea:focus {
     }
 
     .project-img {
-        width: $font-size-14*30;
+        width: 80vw;
         height: 300px;
     }
 
@@ -772,11 +772,5 @@ textarea:focus {
     .contact-block__text {
         font-size: 10px;
         width: 280px;
-    }
-}
-
-@media (max-width: 480px) {
-    .project-img {
-        width: $font-size-14*26;
     }
 }
